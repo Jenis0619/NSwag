@@ -20,9 +20,6 @@ The project combines the functionality of Swashbuckle (OpenAPI/Swagger generatio
 
 ![ToolchainDiagram](assets/ToolchainDiagram.png) 
 
-
-The project is developed and maintained by [Rico Suter](http://rsuter.com) and other contributors.
-
 ### Features
 
 - [Generate Swagger 2.0 and OpenAPI 3.0 specifications from C# ASP.NET (Core) controllers](https://github.com/RicoSuter/NSwag/wiki/Middlewares)
