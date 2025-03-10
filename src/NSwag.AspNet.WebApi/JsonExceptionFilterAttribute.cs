@@ -82,7 +82,6 @@ namespace NSwag.AspNet.WebApi
             {
                 var methodInfo = actionDescriptor.MethodInfo;
                 var exceptionType = exception.GetType();
-
 #pragma warning disable 618
                 var statusCodeString = methodInfo.GetCustomAttributes(true).OfType<ResponseTypeAttribute>()
                     .FirstOrDefault(a => a.ResponseType.IsAssignableFrom(exceptionType.GetTypeInfo()))?.HttpStatusCode;
